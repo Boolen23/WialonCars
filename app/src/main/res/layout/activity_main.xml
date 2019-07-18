@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:weightSum="2"
+    android:keepScreenOn="true">
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:soundEffectsEnabled="false"
+            android:onClick="Click3980"
+            android:text="3980" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:soundEffectsEnabled="false"
+            android:onClick="Click3981"
+            android:text="3981" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:onClick="Click3982"
+            android:text="3982"
+
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:onClick="Click3983"
+            android:text="3983" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TxtView"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Select car"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+</TableLayout>
